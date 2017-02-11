@@ -1,0 +1,31 @@
+{
+  "name": "many-to-one",
+  "version": "0.0.1",
+  "description": "Sync and keep in sync multiple files to one file",
+  "bin": {"many-to-one": "./cli.js"},
+  "scripts": {
+    "build": "node_modules/.bin/coffee -cb index.coffee",
+    "test": "node index.js test/src test/bundle.js"
+  },
+  "keywords": [
+    "sync",
+    "map",
+    "many",
+    "one",
+    "file",
+    "edit",
+    "programming"
+  ],
+  "author": "xixixao",
+  "repository": "xixixao/many-to-one",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "1.6.1",
+    "escape-string-regexp": "1.0.5",
+    "time-stamp": "1.0.1",
+    "yargs": "6.6.0"
+  },
+  "devDependencies": {
+    "coffee-script": "1.12.3"
+  }
+}
